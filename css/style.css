@@ -1,8 +1,4 @@
-*{
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-}
+
 body{
     font-family: sans-serif;
     padding: 1px;
@@ -26,11 +22,7 @@ main{
     background-color: white;
     overflow-y: hidden;
 }
-@media screen (max-width: 768px) {
-    .side-bar {
-        display: none;
-    }
-}
+
 .left{
     display: flex;
     align-items: center;
@@ -49,6 +41,11 @@ main{
     border-radius: 40px;
     
 }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
 .search input{
     width: 500px;
     padding: 10px;
@@ -70,7 +67,7 @@ input:focus{
     margin-top: 10px;
     padding: 7px;
 }
-.material-icons{
+.icons{
     color: rgb(100, 100, 100);
     padding: 10px;
     cursor: pointer;
@@ -110,7 +107,7 @@ hr{
     background-color: #e5e5e5;
     border: none;
 }
-.content {
+.main-content {
     display: flex;
     flex-wrap: wrap;
     background-color: #f9f9f9;
